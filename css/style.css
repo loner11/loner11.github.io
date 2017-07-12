@@ -338,14 +338,13 @@
   letter-spacing: normal;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
-  color: #eee;
+  color: #2bbc8a;
   display: block;
 }
 .content h3 {
   font-size: 0.9rem;
   font-weight: bold;
-  text-decoration: underline;
-  color: #eee;
+  color: #2bbc8a;
 }
 .content h4,
 .content h5,
@@ -421,7 +420,7 @@
 .content th {
   font-size: 13px;
   font-weight: bold;
-  color: #eee;
+  color: #2bbc8a;
   border-bottom: 1px dashed #ccc;
   padding: 8px 8px;
 }
@@ -1261,7 +1260,7 @@ article .content .caption {
   background-image: none;
 }
 .pagination a:hover:not(.active) {
-  color: #eee;
+  color: #2bbc8a;
 }
 .highlight {
   color: #d1d9e1;

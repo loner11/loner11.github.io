@@ -2,10 +2,12 @@
 <search>
   <entry>
     <title><![CDATA[移动端H5常见问题以及解决方案]]></title>
-    <url>%2F2017%2F07%2F11%2F%E7%A7%BB%E5%8A%A8%E7%AB%AFH5%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
-    <content type="text"></content>
+    <url>%2F2017%2F07%2F12%2F%E7%A7%BB%E5%8A%A8%E7%AB%AFH5%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
+    <content type="text"><![CDATA[1. ios中input标签常见问题 input显示默认圆角和内阴影 1234input &#123; -webkit-appearance: none; border-radius: 0;&#125; 修改默认placeholder样式 123input::-webkit-input-placeholder &#123; /*自定义样式*/&#125; 焦点在input时, placeholder没有隐藏 123input:focus::-webkit-input-placeholder &#123; opacity: 0;&#125; input输入框调出数字键盘 1&lt;input type="number" pattern="[0-9]*" /&gt; 2. 点击触发颜色块问题 点击a标签链接触发默认背景块1234567a,a:hover,a:active,a:visited,a:link,a:focus &#123; -webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-tap-highlight-color: transparent; outline:none; background: none; text-decoration: none;&#125; 3. ios中禁止出现的行为 禁止识别长串数字为电话 1&lt;meta content="telephone=no" name="format-detection"&gt; 禁止弹出各种操作窗口 123&#123; -webkit-touch-callout: none;&#125; 禁止用户选中文字 123&#123; -webkit-user-select: none;&#125; 禁止用户缩放页面，页面窗口自动调整到设备宽度 1234567&lt;meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" /&gt;&lt;!--width 设置viewport宽度，为一个正整数，或字符串‘device-width’--&gt;&lt;!--height 设置viewport高度，一般设置了宽度，会自动解析出高度，可以不用设置--&gt;&lt;!--initial-scale 默认缩放比例，为一个数字，可以带小数--&gt;&lt;!--minimum-scale 允许用户最小缩放比例，为一个数字，可以带小数--&gt;&lt;!--maximum-scale 允许用户最大缩放比例，为一个数字，可以带小数--&gt;&lt;!--user-scalable 是否允许手动缩放--&gt; 4. meta H5空白页面基本meta标签 123456&lt;!--设置缩放--&gt;&lt;meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" /&gt;&lt;!-- 仅针对IOS的Safari顶端状态条的样式（可选default/black/black-translucent ） --&gt;&lt;meta name="apple-mobile-web-app-status-bar-style" content="black" /&gt;&lt;!-- IOS中禁用将数字识别为电话号码/忽略Android平台中对邮箱地址的识别 --&gt;&lt;meta name="format-detection"content="telephone=no, email=no" /&gt; 页面缓存设置 1234&lt;!--清除缓存--&gt;&lt;meta http-equiv="pragma" content="no-cache"&gt;&lt;meta http-equiv="cache-control" content="no-cache"&gt;&lt;meta http-equiv="expires" content="0"&gt;]]></content>
       <tags>
         <tag>移动端</tag>
+        <tag>HTML5</tag>
+        <tag>CSS3</tag>
       </tags>
   </entry>
 </search>
